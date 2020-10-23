@@ -30,14 +30,23 @@ public class Classe {
 	
 		Delta = (B*B)-((4*A)*C);
 	System.out.println("Valor de delta:" +Delta);
+		
+		if (Delta <0)
+	System.out.println("Equação sem solução.");
+		
+		
 	
 	X1 = ((-B)+ (Math.sqrt(Delta))) /(2*A);
 	System.out.println("Valor de x1:" +X1);
 	
-	X2 =((-1*B) - Math.sqrt(Delta)) /(2*A); 
+	X2 =((-B) - Math.sqrt(Delta)) /(2*A); 
 	System.out.println("Valor de x2:" +X2);
-	}
 	
-}	
+	
+	
+	}
+}
+
+
 
 
